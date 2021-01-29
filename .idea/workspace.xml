@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cd47b91-d168-44dd-a5f9-036be5a34f3f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3542">
+              <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/banner/list.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3174">
+              <caret line="138" column="32" selection-end-line="160" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/banner/save.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2484">
+              <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/api/edu/banner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>constantRouterMap</find>
+      <find>max</find>
+      <find>min</find>
+      <find>name</find>
+      <find>cons</find>
+      <find>conso</find>
+      <find>vue-admin-template</find>
+      <find>http://localhost:9528</find>
+      <find>image</find>
+      <find>conf</find>
+      <find>&quot;&quot;</find>
+      <find>saveVideoBtnDisabled</find>
+      <find>删除</find>
+      <find>this.chapter.id</find>
+      <find>isFree</find>
+      <find>subSubjectList</find>
+      <find>listLoading</find>
+      <find>fetchData</find>
+      <find>searchObj</find>
+      <find>getList</find>
+      <find>BASE_API</find>
+      <find>OSS_PATH</find>
+      <find>9528</find>
+      <find>deleteCourse</find>
+      <find>添加课时</find>
+      <find>getPageBanner</find>
+      <find>id</find>
+      <find>teacher</find>
+      <find>file</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>teacherQuery</replace>
+      <replace>courseQuery</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/api/edu/teacher.js" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/teacher/list.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/package-lock.json" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/login/index.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/config/dev.env.js" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/subject/save.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/api/edu/subject.js" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/subject/list.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/build/webpack.dev.conf.js" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/index.html" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/api/edu/chapter.js" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/course/publish.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/api/edu/course.js" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/course/info.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/course/list.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/api/edu/video.js" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/course/chapter.vue" />
+        <option value="$PROJECT_DIR$/vue-front/package.json" />
+        <option value="$PROJECT_DIR$/vue-front/plugins/nuxt-swiper-plugin.js" />
+        <option value="$PROJECT_DIR$/vue-front/nuxt.config.js" />
+        <option value="$PROJECT_DIR$/vue-front/layouts/default.vue" />
+        <option value="$PROJECT_DIR$/vue-front/pages/index.vue" />
+        <option value="$PROJECT_DIR$/vue-front/pages/course/index.vue" />
+        <option value="$PROJECT_DIR$/vue-front/pages/course/_id.vue" />
+        <option value="$PROJECT_DIR$/vue-front/pages/teacher/index.vue" />
+        <option value="$PROJECT_DIR$/vue-front/pages/teacher/_id.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/router/index.js" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/teacher/save.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/banner/save.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/views/edu/banner/list.vue" />
+        <option value="$PROJECT_DIR$/vue-admin-template-master/src/api/edu/banner.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="30" />
+    <option name="y" value="60" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="guliWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guliWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guliWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guliWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guliWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guliWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guliWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guliWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guliWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guliWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guliWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guliWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guliWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guliWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guliWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guliWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guliWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guliWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="banner" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue-front/assets" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyProject\ActualCombatProject\GuliCollege\guliWeb\vue-front\assets" />
+      <recent name="F:\MyProject\ActualCombatProject\GuliCollege\guliWeb\vue-front" />
+      <recent name="F:\MyProject\ActualCombatProject\GuliCollege\guliWeb\vue-admin-template-master\static" />
+      <recent name="F:\MyProject\ActualCombatProject\GuliCollege\guliWeb\vue-admin-template-master\src\components" />
+      <recent name="F:\MyProject\ActualCombatProject\GuliCollege\guliWeb\vue-admin-template-master\src\api\edu" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cd47b91-d168-44dd-a5f9-036be5a34f3f" name="Default Changelist" comment="" />
+      <created>1610293010119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610293010119</updated>
+      <workItem from="1610293011358" duration="7313000" />
+      <workItem from="1610375600783" duration="9265000" />
+      <workItem from="1610449171214" duration="7074000" />
+      <workItem from="1610472688165" duration="467000" />
+      <workItem from="1610536412090" duration="1478000" />
+      <workItem from="1610589643088" duration="9720000" />
+      <workItem from="1610676097417" duration="7531000" />
+      <workItem from="1610792275725" duration="4476000" />
+      <workItem from="1610867305896" duration="7670000" />
+      <workItem from="1610934917690" duration="5139000" />
+      <workItem from="1611021975323" duration="23380000" />
+      <workItem from="1611107648456" duration="13998000" />
+      <workItem from="1611194311041" duration="10034000" />
+      <workItem from="1611393131808" duration="1618000" />
+      <workItem from="1611479711936" duration="4008000" />
+      <workItem from="1611507046919" duration="775000" />
+      <workItem from="1611540620324" duration="6549000" />
+      <workItem from="1611627165426" duration="8984000" />
+      <workItem from="1611745996827" duration="2860000" />
+      <workItem from="1611768833164" duration="2139000" />
+      <workItem from="1611814588121" duration="7307000" />
+      <workItem from="1611915136591" duration="644000" />
+      <workItem from="1611934532953" duration="794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="143223000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17052214" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2684659" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/table/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="2" selection-start-column="2" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/README-zh.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="2" selection-start-column="2" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/login/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/tree/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="56" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/course/save.vue" />
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/subject/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/static/tinymce4.7.5/langs/zh_CN.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/components/Tinymce/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/api/edu/subject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/course/publish.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-steps#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/subject/save.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#el-button#1;n#el-upload#0;n#el-form-item#1;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/api/edu/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/assets/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/assets/css/web.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/assets/photo/banner/1525939573202.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/assets/photo/banner/153525d0ef15459596.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/pages/course.index.vue" />
+    <entry file="file://$PROJECT_DIR$/vue-front/pages/course/_id.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="160" column="23" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#article#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#section#0;n#section#0;n#aside#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1094#1100#0" expanded="true" />
+            <element signature="e#1100#1106#0" expanded="true" />
+            <element signature="e#1106#1112#0" expanded="true" />
+            <element signature="e#1671#1677#1" expanded="true" />
+            <element signature="e#1905#1911#1" expanded="true" />
+            <element signature="e#2138#2144#1" expanded="true" />
+            <element signature="e#3167#3173#0" expanded="true" />
+            <element signature="e#3253#3259#0" expanded="true" />
+            <element signature="e#3460#3466#0" expanded="true" />
+            <element signature="e#3829#3835#0" expanded="true" />
+            <element signature="e#3840#3846#0" expanded="true" />
+            <element signature="n#style#0;n#ol#0;n#li#0;n#ul#0;n#menu#0;n#div#0;n#section#0;n#div#1;n#article#0;n#div#0;n#section#0;n#article#0;n#div#1;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#5050#5056#1" expanded="true" />
+            <element signature="e#5339#5345#1" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#section#1;n#div#0;n#div#0;n#aside#0;n#div#1;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/pages/course/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3849">
+          <caret line="296" column="14" selection-start-line="296" selection-start-column="14" selection-end-line="296" selection-end-column="14" />
+          <folding>
+            <element signature="e#2332#2338#0" expanded="true" />
+            <element signature="e#2606#2612#1" expanded="true" />
+            <element signature="e#11938#11942#1" expanded="true" />
+            <element signature="e#12089#12093#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/pages/teacher/_id.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="113" column="9" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+          <folding>
+            <element signature="e#595#601#0" expanded="true" />
+            <element signature="e#1412#1418#1" expanded="true" />
+            <element signature="e#1578#1584#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/pages/teacher/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="196" column="9" selection-start-line="196" selection-start-column="9" selection-end-line="196" selection-end-column="9" />
+          <folding>
+            <element signature="e#815#821#1" expanded="true" />
+            <element signature="e#8615#8619#1" expanded="true" />
+            <element signature="e#8770#8774#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/plugins/nuxt-swiper-plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/nuxt.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-front/layouts/default.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#1132#1138#1" expanded="true" />
+            <element signature="e#1516#1522#1" expanded="true" />
+            <element signature="n#style#0;n#q#0;n#li#1;n#ul#1;n#div#0;n#section#0;n#header#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1604#1610#1" expanded="true" />
+            <element signature="e#2491#2497#1" expanded="true" />
+            <element signature="e#4470#4502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/api/edu/chapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/course/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="171" column="21" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#el-pagination#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#4267#4307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/course/chapter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="270" column="26" selection-start-line="270" selection-start-column="26" selection-end-line="270" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-steps#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#4039#4081#0" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/node_modules/webpack-dev-server/client/live.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="38" column="5045" selection-start-line="38" selection-start-column="5045" selection-end-line="38" selection-end-column="5045" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/static/tinymce4.7.5/tinymce.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="18136" selection-start-line="1" selection-start-column="18136" selection-end-line="1" selection-end-column="18136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/teacher/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="167" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#el-pagination#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/api/edu/teacher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/api/edu/course.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/teacher/save.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="93" column="6" lean-forward="true" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/course/info.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="197" column="11" lean-forward="true" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-steps#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2547#2587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3542">
+          <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/banner/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3174">
+          <caret line="138" column="32" selection-end-line="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/views/edu/banner/save.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin-template-master/src/api/edu/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
