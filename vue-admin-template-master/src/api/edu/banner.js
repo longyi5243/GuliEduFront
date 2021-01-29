@@ -1,7 +1,7 @@
 import request from '@/utils/request'
 
 export default {
-  //分页查询轮播图
+  //分页查询轮播图11
   getPageBanner(current, limit, bannerQuery) {
     return request({
       url: `/educms/banneradmin/pageBanner/${current}/${limit}`,
