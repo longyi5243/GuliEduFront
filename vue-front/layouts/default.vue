@@ -134,55 +134,77 @@
   </div>
 </template>
 <script>
-  import "~/assets/css/reset.css";
-  import "~/assets/css/theme.css";
-  import "~/assets/css/global.css";
-  import "~/assets/css/web.css";
+import "~/assets/css/reset.css";
+import "~/assets/css/theme.css";
+import "~/assets/css/global.css";
+import "~/assets/css/web.css";
 
-  import cookie from 'js-cookie'
+import cookie from 'js-cookie'
+import loginApi from '@/api/login.js'
 
-  export default {
-    data() {
-      return {
-        token: '',
-        loginInfo: {
-          id: '',
-          age: '',
-          avatar: '',
-          mobile: '',
-          nickname: '',
-          sex: ''
-        }
+export default {
+  data() {
+    return {
+      token: '',
+      loginInfo: {
+        id: '',
+        age: '',
+        avatar: '',
+        mobile: '',
+        nickname: '',
+        sex: ''
+      }
+    }
+  },
+  created() {
+    //获取路径中的token值
+    this.token = this.$route.query.token
+    if (this.token) {  //判断路径中是否有token，如果有，则执行微信登陆操作的数据回显
+      this.wxLogin()
+    }
+
+    this.showInfo()
+  },
+  methods: {
+
+    //微信登陆操作的数据回显
+    wxLogin() {
+      if (this.token == '') return
+      //把token放到cookie中
+      cookie.set('guli_token', this.token, {domain: 'localhost'})
+      cookie.set('guli_ucenter', '', {domain: 'localhost'})
+
+      //调用借口，根据token获取用户信息
+      loginApi.getLoginUserInfo().then(response => {
+        this.loginInfo = response.data.data.userInfo
+        //将用户信息记录cookie
+        cookie.set('guli_ucenter', this.loginInfo, {domain: 'localhost'})
+      })
+    },
+
+    //创建方法  从cookie中获取用户信息
+    showInfo() {
+      //从cookie中获取用户信息
+      var userStr = cookie.get('guli_ucenter')
+      //把字符串转换成json对象
+      if (userStr) {
+        this.loginInfo = JSON.parse(userStr)
       }
     },
-    created() {
-      this.showInfo()
-    },
-    methods: {
 
-      //创建方法  从cookie中获取用户信息
-      showInfo() {
-        //从cookie中获取用户信息
-        var userStr = cookie.get('guli_ucenter')
-        //把字符串转换成json对象
-        if (userStr) {
-          this.loginInfo = JSON.parse(userStr)
-        }
-      },
+    //退出
+    logout() {
+      //清空cookie
+      cookie.set('guli_token', '', {domain: 'localhost'})
+      cookie.set('guli_ucenter', '', {domain: 'localhost'})
 
-      //退出
-      logout() {
-        //清空cookie
-        cookie.set('guli_token', '', {domain: 'localhost'})
-        cookie.set('guli_ucenter', '', {domain: 'localhost'})
-
-        //跳转首页
-        // this.$router.push({path: '/'})
-        window.location.href = '/'
-
-      }
+      //跳转首页
+      // this.$router.push({path: '/'})
+      window.location.href = '/'
 
     }
-  };
+
+  }
+};
 
 </script>
