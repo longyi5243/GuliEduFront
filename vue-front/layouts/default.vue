@@ -63,7 +63,6 @@
           </ul>
 
 
-
           <aside class="h-r-search">
             <form action="#" method="post">
               <label class="h-r-s-box">
@@ -160,15 +159,29 @@
       this.showInfo()
     },
     methods: {
+
       //创建方法  从cookie中获取用户信息
       showInfo() {
         //从cookie中获取用户信息
         var userStr = cookie.get('guli_ucenter')
         //把字符串转换成json对象
-        if(userStr){
+        if (userStr) {
           this.loginInfo = JSON.parse(userStr)
         }
+      },
+
+      //退出
+      logout() {
+        //清空cookie
+        cookie.set('guli_token', '', {domain: 'localhost'})
+        cookie.set('guli_ucenter', '', {domain: 'localhost'})
+
+        //跳转首页
+        // this.$router.push({path: '/'})
+        window.location.href = '/'
+
       }
+
     }
   };
 
