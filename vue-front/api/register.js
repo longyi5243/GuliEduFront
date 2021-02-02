@@ -2,7 +2,7 @@ import request from '@/utils/request'
 
 export default {
 
-  //发送验证码
+  //注册
   registerMember(formItem) {
     return request({
       url: '/educenter/member/register',
