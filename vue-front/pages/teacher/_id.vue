@@ -44,7 +44,7 @@
             <span class="c-666 fsize14 ml10 vam">没有相关数据，小编正在努力整理中...</span>
           </section>
           <!-- /无数据提示 结束-->
-          <article class="comm-course-list" v-if="courseList.length>0">
+            <article class="comm-course-list" v-if="courseList.length>0">
             <ul class="of">
               <li v-for="course in courseList" :key="course.id">
                 <div class="cc-l-wrap">
@@ -55,7 +55,7 @@
                     </div>
                   </section>
                   <h3 class="hLh30 txtOf mt10">
-                    <a href="#" title="零基础入门学习Python课程学习" target="_blank" class="course-title fsize18 c-333">{{course.title}}</a>
+                    <a href="#" :title="course.title" target="_blank" class="course-title fsize18 c-333">{{course.title}}</a>
                   </h3>
                 </div>
               </li>
