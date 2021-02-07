@@ -12,7 +12,7 @@
       <div>
         <article class="c-v-pic-wrap" style="height: 357px;">
           <section class="p-h-video-box" id="videoPlay">
-<!--            <img :src="courseWebVo.cover" :alt="courseWebVo.title" class="dis c-v-pic">-->
+            <!--            <img :src="courseWebVo.cover" :alt="courseWebVo.title" class="dis c-v-pic">-->
             <img src="~/assets/photo/course/1442295581911.jpg" :alt="courseWebVo.title" class="dis c-v-pic">
           </section>
         </article>
@@ -109,7 +109,7 @@
 
                             <ol class="lh-menu-ol" style="display: block;">
                               <li class="lh-menu-second ml30" v-for="video in chapter.children" :key="video.id">
-                                <a :href="'/player/'+video.videoSourceId" :title="video.title" target="_blank">
+                                <a :href="'/player/'+video.videoSourceId" :title="video.title" target="_self">
                                   <span class="fr">
                                     <i class="free-icon vam mr10">免费试听</i>
                                   </span>
@@ -154,25 +154,170 @@
             </div>
           </div>
         </aside>
+
         <div class="clear"></div>
+        <div class="mt50 commentHtml">
+          <div>
+            <h6 class="c-c-content c-infor-title" id="i-art-comment">
+              <span class="commentTitle">课程评论</span>
+            </h6>
+            <section class="lh-bj-list pr mt20 replyhtml">
+              <ul>
+                <li class="unBr">
+                  <aside class="noter-pic">
+                    <img width="50" height="50" class="picImg" src="~/assets/img/avatar-boy.gif">
+                  </aside>
+                  <div class="of">
+                    <section class="n-reply-wrap">
+                      <fieldset>
+                        <textarea name="" v-model="eduComment.content" placeholder="输入您要评论的文字"
+                                  id="commentContent"></textarea>
+                      </fieldset>
+                      <p class="of mt5 tar pl10 pr10">
+                        <span class="fl "><tt class="c-red commentContentmeg" style="display: none;"></tt></span>
+                        <input type="button" @click="addComment()" value="回复" class="lh-reply-btn">
+                      </p>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="">
+              <section class="question-list lh-bj-list pr">
+                <ul class="pr10">
+                  <li v-for="(comment,index) in data.items" v-bind:key="index">
+                    <aside class="noter-pic">
+                      <img width="50" height="50" class="picImg" :src="comment.avatar">
+                    </aside>
+                    <div class="of">
+                    <span class="fl">
+                    <font class="fsize12 c-blue">
+                      {{comment.nickname}}</font>
+                    <font class="fsize12 c-999 ml5">评论：</font></span>
+                    </div>
+                    <div class="noter-txt mt5">
+                      <p>{{comment.content}}</p>
+                    </div>
+                    <div class="of mt5">
+                      <span class="fr"><font class="fsize12 c-999 ml5">{{comment.gmtCreate}}</font></span>
+                    </div>
+                  </li>
+
+                </ul>
+              </section>
+            </section>
+
+            <!-- 公共分页 开始 -->
+            <div class="paging">
+              <!-- undisable这个class是否存在，取决于数据属性hasPrevious -->
+              <a
+                :class="{undisable: !data.hasPrevious}"
+                href="#"
+                title="首页"
+                @click.prevent="gotoPage(1)">首</a>
+              <a
+                :class="{undisable: !data.hasPrevious}"
+                href="#"
+                title="前一页"
+                @click.prevent="gotoPage(data.current-1)">&lt;</a>
+              <a
+                v-for="page in data.pages"
+                :key="page"
+                :class="{current: data.current == page, undisable: data.current == page}"
+                :title="'第'+page+'页'"
+                href="#"
+                @click.prevent="gotoPage(page)">{{ page }}</a>
+              <a
+                :class="{undisable: !data.hasNext}"
+                href="#"
+                title="后一页"
+                @click.prevent="gotoPage(data.current+1)">&gt;</a>
+              <a
+                :class="{undisable: !data.hasNext}"
+                href="#"
+                title="末页"
+                @click.prevent="gotoPage(data.pages)">末</a>
+              <div class="clear"/>
+            </div>
+            <!-- 公共分页 结束 -->
+          </div>
+        </div>
       </div>
     </section>
     <!-- /课程详情 结束 -->
+
   </div>
 </template>
 
 <script>
 
   import courseApi from '@/api/course.js'
+  import commentApi from '@/api/comment.js'
 
   export default {
-    asyncData({params, error}) {
-      return courseApi.getCourseInfo(params.id).then(response => {
-        return {
-          courseWebVo: response.data.data.courseWebVo,
-          chapterVideoList: response.data.data.chapterVideoList
-        }
-      })
+    // asyncData({params, error}) {
+    //   return courseApi.getCourseInfo(params.id).then(response => {
+    //     return {
+    //       courseWebVo: response.data.data.courseWebVo,
+    //       chapterVideoList: response.data.data.chapterVideoList
+    //     }
+    //   })
+    // },
+    data() {
+      return {
+        data: {},
+        page: 1,
+        limit: 5,
+        total: 0,
+        eduComment: {
+          content: '',
+          courseId: '',
+          teacherId: ''
+        },
+        courseInfo: {},
+        courseWebVo: '',
+        chapterVideoList: [],
+        isbuyCourse: false
+      }
     },
+    created() {
+      this.eduComment.courseId = this.$route.params.id
+      this.initComment()
+      this.initCourseInfo()
+    },
+    methods: {
+      initCourseInfo() {
+        courseApi.getCourseInfo(this.$route.params.id).then(response => {
+          this.courseWebVo = response.data.data.courseWebVo
+          this.chapterVideoList = response.data.data.chapterVideoList
+        })
+      },
+      initComment() {
+        commentApi.getCommentListPage(this.page, this.limit, this.$route.params.id).then(response => {
+          this.data = response.data.data
+        })
+      },
+      addComment() {
+        this.eduComment.courseId = this.$route.params.id
+        this.eduComment.teacherId = this.courseWebVo.teacherId
+        commentApi.addComment(this.eduComment).then(response => {
+          if (response.data.success) {
+            this.eduComment.content = ''
+            this.initComment()
+          } else {
+            this.$router.push({path: '/login'})
+            this.$message({
+              type: 'info',
+              message: '请先登录'
+            });
+          }
+        })
+      },
+      gotoPage(page) {
+        commentApi.getCommentListPage(page, this.limit, this.$route.params.id).then(response => {
+          this.data = response.data.data
+        })
+      }
+    }
   };
 </script>
