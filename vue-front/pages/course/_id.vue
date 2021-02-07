@@ -13,7 +13,7 @@
         <article class="c-v-pic-wrap" style="height: 357px;">
           <section class="p-h-video-box" id="videoPlay">
             <!--            <img :src="courseWebVo.cover" :alt="courseWebVo.title" class="dis c-v-pic">-->
-            <img src="~/assets/photo/course/1442295581911.jpg" :alt="courseWebVo.title" class="dis c-v-pic">
+            <img height="357" width="700" :src="courseWebVo.cover" :alt="courseWebVo.title" class="dis c-v-pic">
           </section>
         </article>
         <aside class="c-attr-wrap">
