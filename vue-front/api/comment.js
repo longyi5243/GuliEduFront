@@ -14,11 +14,11 @@ export default {
   //获取评论列表
   getCommentListPage(current, limit, courseId) {
     return request({
-      url: `/eduservice/comment/getCommentListPage/${current}/${limit}`,
+      url: `/eduservice/comment/getCommentListPage/${current}/${limit}/${courseId}`,
       method: 'get',
-      params: {
-        courseId: courseId
-      }
+      // params: {
+      //   courseId: courseId
+      // }
     })
   }
 
