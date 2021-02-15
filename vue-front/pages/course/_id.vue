@@ -35,7 +35,7 @@
               </span>
             </section>
             <section class="c-attr-mt">
-              <a href="#" title="立即观看" class="comm-btn c-btn-3">立即观看</a>
+              <a @click="createOrders()" href="#" title="立即购买" class="comm-btn c-btn-3">立即购买</a>
             </section>
           </section>
         </aside>
@@ -253,6 +253,7 @@
 
   import courseApi from '@/api/course.js'
   import commentApi from '@/api/comment.js'
+  import ordersApi from '@/api/orders.js'
 
   export default {
     // asyncData({params, error}) {
@@ -316,6 +317,23 @@
       gotoPage(page) {
         commentApi.getCommentListPage(page, this.limit, this.$route.params.id).then(response => {
           this.data = response.data.data
+        })
+      },
+
+      createOrders() {
+        ordersApi.createOrders(this.$route.params.id).then(response => {
+          if (response.data.success) {
+            //获取返回的订单编号
+            console.log(response.data.data)
+            //生成订单后，跳转订单支付页面
+            this.$router.push({path: '/orders/' + response.data.data.orderNo})
+          } else {
+            this.$router.push({path: '/login'})
+            this.$message({
+              type: 'info',
+              message: '请先登录'
+            });
+          }
         })
       }
     }
