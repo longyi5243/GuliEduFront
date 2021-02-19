@@ -34,7 +34,10 @@
                 <a class="c-fff vam" title="收藏" href="#">收藏</a>
               </span>
             </section>
-            <section class="c-attr-mt">
+            <section class="c-attr-mt" v-if="isbuyCourse || Number(courseWebVo.price) === 0">
+              <a @click="createOrders()" href="#" title="立即观看" class="comm-btn c-btn-3">立即观看</a>
+            </section>
+            <section class="c-attr-mt" v-else>
               <a @click="createOrders()" href="#" title="立即购买" class="comm-btn c-btn-3">立即购买</a>
             </section>
           </section>
@@ -291,6 +294,7 @@
         courseApi.getCourseInfo(this.$route.params.id).then(response => {
           this.courseWebVo = response.data.data.courseWebVo
           this.chapterVideoList = response.data.data.chapterVideoList
+          this.isbuyCourse = response.data.data.isBuy
         })
       },
       initComment() {
