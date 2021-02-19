@@ -81,6 +81,12 @@
           order: response.data.data.item
         }
       })
+    },
+    methods:{
+      //去支付
+      toPay(){
+        this.$router.push({path:'/pay/' + this.order.orderNo})
+      }
     }
   }
 
