@@ -35,7 +35,7 @@
               </span>
             </section>
             <section class="c-attr-mt" v-if="isbuyCourse || Number(courseWebVo.price) === 0">
-              <a @click="createOrders()" href="#" title="立即观看" class="comm-btn c-btn-3">立即观看</a>
+              <a href="#" title="立即观看" class="comm-btn c-btn-3">立即观看</a>
             </section>
             <section class="c-attr-mt" v-else>
               <a @click="createOrders()" href="#" title="立即购买" class="comm-btn c-btn-3">立即购买</a>
